@@ -37,5 +37,5 @@ jobs:
           platforms: linux/arm64,linux/amd64,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            philiplehmann/unoserver:v0.0.1
+            philiplehmann/unoserver:v1.4.0
             philiplehmann/unoserver:latest
