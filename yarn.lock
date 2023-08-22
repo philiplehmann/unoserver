@@ -254,7 +254,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.15.11, @types/node@npm:^18.7.8":
+"@types/node@npm:^18.17.8":
+  version: 18.17.8
+  resolution: "@types/node@npm:18.17.8"
+  checksum: ebb71526368c9c58f03e2c2408bfda4aa686c13d84226e2c9b48d9c4aee244fb82e672aaf4aa8ccb6e4993b4274d5f4b2b3d52d0a2e57ab187ae653903376411
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.7.8":
   version: 18.17.7
   resolution: "@types/node@npm:18.17.7"
   checksum: cb327da222eb9dc2a8e86c957bef58b16f20a2f6b109e43ff10267e83b342bcba5257e800438dd54deb2bd66bb7815539a759c6dcf91e1b0b08b3add1d5886c8
@@ -1766,7 +1773,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-ts@npm:^6.0.0":
+"node-ts@npm:^6.0.1":
   version: 6.0.1
   resolution: "node-ts@npm:6.0.1"
   dependencies:
@@ -2488,7 +2495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.0.4":
+"typescript@npm:^5.1.6":
   version: 5.1.6
   resolution: "typescript@npm:5.1.6"
   bin:
@@ -2508,7 +2515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^5.1.6#~builtin<compat/typescript>":
   version: 5.1.6
   resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
   bin:
@@ -2555,11 +2562,11 @@ __metadata:
   resolution: "unoserver@workspace:."
   dependencies:
     "@types/express": ^4.17.17
-    "@types/node": ^18.15.11
+    "@types/node": ^18.17.8
     express: ^4.18.2
-    node-ts: ^6.0.0
+    node-ts: ^6.0.1
     node-ts-dev: ^1.0.0
-    typescript: ^5.0.4
+    typescript: ^5.1.6
   languageName: unknown
   linkType: soft
 
